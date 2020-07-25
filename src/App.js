@@ -2,9 +2,9 @@ import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { MagicSquare } from "./components/MagicSquare";
 import styled from 'styled-components'
-import kkzn from './kkzn.svg';
-import dejipiyo from './dejipiyo.svg';
-import mKkzn from './m-kkzn.svg';
+import kkzn from './assets/images/kkzn.svg';
+import dejipiyo from './assets/images/dejipiyo.svg';
+import mKkzn from './assets/images/m-kkzn.svg';
 
 const useStyles = makeStyles((theme) => ({
   contaier: {
@@ -214,7 +214,6 @@ function App() {
           <a href="https://dejipiyo.connpass.com/" target="_blank" rel="noopener noreferrer" className={classes.dejipiyoLogo} >
             <img src={dejipiyo} alt="dejipiyo-logo" />
           </a>
-        
           <h1 className={classes.dejipiyoTitle}>でじぴよ</h1>
         </div>
         <div className={classes.magicSquareContent}>

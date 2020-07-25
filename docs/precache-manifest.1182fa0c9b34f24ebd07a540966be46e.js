@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1652592e10b01b5c2676480593f62994",
+    "revision": "ecce9571c166038cbf1d810c7bf934c2",
     "url": "/dejipiyo/index.html"
   },
   {
-    "revision": "59a39ee44c005ef98720",
+    "revision": "923fd87132c745a8334e",
     "url": "/dejipiyo/static/css/main.0ca92cbd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dejipiyo/static/js/2.30e01794.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59a39ee44c005ef98720",
-    "url": "/dejipiyo/static/js/main.8ad05976.chunk.js"
+    "revision": "923fd87132c745a8334e",
+    "url": "/dejipiyo/static/js/main.f6bd4e4f.chunk.js"
   },
   {
     "revision": "5d4d1e8f3ab60c85ed1d",

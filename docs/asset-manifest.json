@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dejipiyo/static/css/main.0ca92cbd.chunk.css",
-    "main.js": "/dejipiyo/static/js/main.8ad05976.chunk.js",
-    "main.js.map": "/dejipiyo/static/js/main.8ad05976.chunk.js.map",
+    "main.js": "/dejipiyo/static/js/main.f6bd4e4f.chunk.js",
+    "main.js.map": "/dejipiyo/static/js/main.f6bd4e4f.chunk.js.map",
     "runtime-main.js": "/dejipiyo/static/js/runtime-main.3ddc9e3d.js",
     "runtime-main.js.map": "/dejipiyo/static/js/runtime-main.3ddc9e3d.js.map",
     "static/js/2.30e01794.chunk.js": "/dejipiyo/static/js/2.30e01794.chunk.js",
     "static/js/2.30e01794.chunk.js.map": "/dejipiyo/static/js/2.30e01794.chunk.js.map",
     "index.html": "/dejipiyo/index.html",
-    "precache-manifest.07e2a8d2254323bb305c599acd273146.js": "/dejipiyo/precache-manifest.07e2a8d2254323bb305c599acd273146.js",
+    "precache-manifest.1182fa0c9b34f24ebd07a540966be46e.js": "/dejipiyo/precache-manifest.1182fa0c9b34f24ebd07a540966be46e.js",
     "service-worker.js": "/dejipiyo/service-worker.js",
     "static/css/main.0ca92cbd.chunk.css.map": "/dejipiyo/static/css/main.0ca92cbd.chunk.css.map",
     "static/js/2.30e01794.chunk.js.LICENSE.txt": "/dejipiyo/static/js/2.30e01794.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.3ddc9e3d.js",
     "static/js/2.30e01794.chunk.js",
     "static/css/main.0ca92cbd.chunk.css",
-    "static/js/main.8ad05976.chunk.js"
+    "static/js/main.f6bd4e4f.chunk.js"
   ]
 }
