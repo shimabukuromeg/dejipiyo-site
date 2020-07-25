@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shimabukuromeg.github.io/dejipiyo/static/css/main.0ca92cbd.chunk.css",
+    "main.js": "/shimabukuromeg.github.io/dejipiyo/static/js/main.c7875736.chunk.js",
+    "main.js.map": "/shimabukuromeg.github.io/dejipiyo/static/js/main.c7875736.chunk.js.map",
+    "runtime-main.js": "/shimabukuromeg.github.io/dejipiyo/static/js/runtime-main.551110f0.js",
+    "runtime-main.js.map": "/shimabukuromeg.github.io/dejipiyo/static/js/runtime-main.551110f0.js.map",
+    "static/js/2.8b131f0a.chunk.js": "/shimabukuromeg.github.io/dejipiyo/static/js/2.8b131f0a.chunk.js",
+    "static/js/2.8b131f0a.chunk.js.map": "/shimabukuromeg.github.io/dejipiyo/static/js/2.8b131f0a.chunk.js.map",
+    "index.html": "/shimabukuromeg.github.io/dejipiyo/index.html",
+    "precache-manifest.69bd08ac23efef647f00a8857344a3fd.js": "/shimabukuromeg.github.io/dejipiyo/precache-manifest.69bd08ac23efef647f00a8857344a3fd.js",
+    "service-worker.js": "/shimabukuromeg.github.io/dejipiyo/service-worker.js",
+    "static/css/main.0ca92cbd.chunk.css.map": "/shimabukuromeg.github.io/dejipiyo/static/css/main.0ca92cbd.chunk.css.map",
+    "static/js/2.8b131f0a.chunk.js.LICENSE.txt": "/shimabukuromeg.github.io/dejipiyo/static/js/2.8b131f0a.chunk.js.LICENSE.txt",
+    "static/media/dejipiyo.svg": "/shimabukuromeg.github.io/dejipiyo/static/media/dejipiyo.e03d9ef8.svg",
+    "static/media/kkzn.svg": "/shimabukuromeg.github.io/dejipiyo/static/media/kkzn.3a376959.svg",
+    "static/media/m-kkzn.svg": "/shimabukuromeg.github.io/dejipiyo/static/media/m-kkzn.75e7ee6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.551110f0.js",
+    "static/js/2.8b131f0a.chunk.js",
+    "static/css/main.0ca92cbd.chunk.css",
+    "static/js/main.c7875736.chunk.js"
+  ]
+}
