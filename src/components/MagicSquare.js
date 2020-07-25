@@ -5,20 +5,13 @@ import styled from 'styled-components'
 const useStyles = makeStyles((theme) => ({
     contaier: {
         display: "flex",
-        height: "100vh",
-        width: "100%",
         justifyContent: "center",
-        alignItems: "center",
         backgroundColor: "#ffd1ea",
         color: "white",
     },
     magicSquare: {
         display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
         position: "relative",
-        height: "200px",
-        width: "200px",
         border: "1px solid white",
         borderRadius: "50%",
     }
@@ -34,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         align-items: center;
         background-color: #ffd1ea;
         color: white;
-        transform: perspective(180px) rotateX(50deg);
+        transform: perspective(300px) rotateX(50deg);
         margin-top: 90px;
     }
     
@@ -291,18 +284,35 @@ const useStyles = makeStyles((theme) => ({
       <>
         <div className={classes.contaier}>
             <Magic>
-            <div class="container">
-            <div class="magic-square">
-                <div class="magic-square-inner-maru">
-                <div class="magic-square-inner-shikaku-1"></div>
-                <div class="magic-square-inner-shikaku-2"></div>
-                <div class="magic-square-inner-shikaku-3"></div>
-                <div class="magic-square-inner-shikaku-4"></div>
-                <div class="magic-square-inner-shikaku-5"></div>
-                <div class="magic-square-inner-shikaku-6"></div>
+                <div class="container">
+                    <div class="magic-square">
+                        <div class="magic-square-inner-maru">
+                            <div class="magic-square-inner-shikaku-1"></div>
+                            <div class="magic-square-inner-shikaku-2"></div>
+                            <div class="magic-square-inner-shikaku-3"></div>
+                            <div class="magic-square-inner-shikaku-4"></div>
+                            <div class="magic-square-inner-shikaku-5"></div>
+                            <div class="magic-square-inner-shikaku-6"></div>
+                        </div>
+                        <div class="magic-square magic-square-part-2">
+                            <div class="magic-square-inner-maru">
+                                <div class="magic-square-inner-shikaku-1"></div>
+                                <div class="magic-square-inner-shikaku-2"></div>
+                                <div class="magic-square-inner-shikaku-3"></div>
+                                <div class="magic-square-inner-shikaku-4"></div>
+                                <div class="magic-square-inner-shikaku-5"></div>
+                                <div class="magic-square-inner-shikaku-6"></div>
+                            </div>
+                            <div class="magic-square magic-square-part-3">
+                                <div class="magic-square-inner-maru">
+                                    <div class="magic-square-inner-shikaku-4"></div>
+                                    <div class="magic-square-inner-shikaku-6"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
             </Magic>
         </div>
       </>
