@@ -26,11 +26,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    justifyContent: "center",
     height: "30%",
-  },
-  magicSquareKkz: {
-    display: "flex",
-    flexDirection: "row",
+    width: "100%",
   },
   dejipiyoTitle: {
     color: "white",
@@ -58,6 +56,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Kkzn = styled.div`
+position: "absolute";
+width: 20%;
 img {
   width: 80%;
 }
@@ -68,15 +68,15 @@ animation: huwahuwa1 2s linear, huwahuwa2 2s 2s linear, huwahuwa3 2s 4s linear, 
 @keyframes huwahuwa1 {
   0% {
       opacity:1;
-      transform: translateY(150%);
+      transform: translateY(400%);
   }
   33% {
     opacity:1;
-    transform: translateY(150%);
-}
+    transform: translateY(400%);
+  }
   100% {
       opacity:0;
-      transform: translateY(-150%);
+      transform: translateY(-300%);
   }
 }
 
@@ -104,6 +104,7 @@ animation: huwahuwa1 2s linear, huwahuwa2 2s 2s linear, huwahuwa3 2s 4s linear, 
   }
 }
 
+
 @keyframes huwahuwa4 {
   0% {
       opacity:0;
@@ -128,9 +129,35 @@ animation: huwahuwa1 2s linear, huwahuwa2 2s 2s linear, huwahuwa3 2s 4s linear, 
       transform: translateX(-120%);
   }
 }
+
+@keyframes huwahuwa5 {
+  0% {
+    opacity:1;
+    transform: translateY(150%);
+}
+50% {
+    opacity:0;
+    transform: translateY(-150%);
+    transform: translateX(120%);
+}
+51% {
+  opacity:0;
+  transform: translateY(150%);
+}
+52% {
+  opacity:1;
+  transform: translateY(150%);
+}
+100% {
+    opacity:0;
+    transform: translateY(-150%);
+    transform: translateX(-120%);
+}
+}
 `
 
 const Mkkzn = styled.div`
+width: 10%;
 position: absolute;
 img {
   width: 80%;

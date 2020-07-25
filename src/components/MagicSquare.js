@@ -8,6 +8,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         backgroundColor: "#ffd1ea",
         color: "white",
+        position: "absolute",
+        top: "60%",
     },
     magicSquare: {
         display: "flex",
