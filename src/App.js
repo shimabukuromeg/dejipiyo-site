@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import kkzn from './kkzn.svg';
 import dejipiyo from './dejipiyo.svg';
 import mKkzn from './m-kkzn.svg';
-import mNanmin from './m-nanami.svg';
 
 const useStyles = makeStyles((theme) => ({
   contaier: {
@@ -202,16 +201,6 @@ animation: khuwahuwa1 2s linear, khuwahuwa2 2s 2s linear, khuwahuwa3 2s 4s linea
       transform: translateY(-150%);
       transform: translateX(-120%);
   }
-}
-`
-const MNanan = styled.div`
-max-width: 100%;
-width: 100%;
-animation: 3s ease-in 1s infinite both running slidein;
-
-@keyframes slidein {
-  from { transform: scaleX(1); }
-  to   { transform: scaleX(0); }
 }
 `
 
