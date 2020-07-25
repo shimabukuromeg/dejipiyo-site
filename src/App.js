@@ -159,7 +159,10 @@ function App() {
       <div className={classes.contaier}>
         <div className={classes.mainContaier}>
         <div className={classes.logoContent}>
-          <img className={classes.dejipiyoLogo} src={dejipiyo} alt="dejipiyo-logo" />
+          <a href="https://dejipiyo.connpass.com/" target="_blank" rel="noopener noreferrer" className={classes.dejipiyoLogo} >
+            <img src={dejipiyo} alt="dejipiyo-logo" />
+          </a>
+        
           <h1 className={classes.dejipiyoTitle}>でじぴよ</h1>
         </div>
         <div className={classes.magicSquareContent}>
