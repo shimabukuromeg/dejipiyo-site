@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dejipiyo/precache-manifest.1182fa0c9b34f24ebd07a540966be46e.js"
+  "/dejipiyo/precache-manifest.9805eb0ca6a640ae784e8bd78504f4e0.js"
 );
 
 self.addEventListener('message', (event) => {
