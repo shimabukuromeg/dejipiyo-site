@@ -107,6 +107,80 @@ animation: huwahuwa1 2s linear, huwahuwa2 2s 2s linear, huwahuwa3 2s 4s linear, 
 
 @keyframes huwahuwa4 {
   0% {
+      opacity:0;
+      transform: translateY(150%);
+  }
+  50% {
+      opacity:0;
+      transform: translateY(-150%);
+      transform: translateX(120%);
+  }
+  51% {
+    opacity:0;
+    transform: translateY(150%);
+  }
+  52% {
+    opacity:0;
+    transform: translateY(150%);
+  }
+  100% {
+      opacity:0;
+      transform: translateY(-150%);
+      transform: translateX(-120%);
+  }
+}
+`
+
+const Mkkzn = styled.div`
+position: absolute;
+img {
+  width: 80%;
+}
+z-index: 1;
+
+animation: khuwahuwa1 2s linear, khuwahuwa2 2s 2s linear, khuwahuwa3 2s 4s linear, khuwahuwa4 3s 6s linear infinite;
+
+@keyframes khuwahuwa1 {
+  0% {
+      opacity:0;
+      transform: translateY(150%);
+  }
+  33% {
+    opacity:0;
+    transform: translateY(150%);
+}
+  100% {
+      opacity:0;
+      transform: translateY(-150%);
+  }
+}
+
+@keyframes khuwahuwa2 {
+  0% {
+      opacity:0;
+      transform: translateY(150%);
+  }
+  100% {
+      opacity:0;
+      transform: translateY(-150%);
+      transform: translateX(60%);
+  }
+}
+
+@keyframes khuwahuwa3 {
+  0% {
+      opacity:0;
+      transform: translateY(150%);
+  }
+  100% {
+      opacity:0;
+      transform: translateY(-150%);
+      transform: translateX(-60%);
+  }
+}
+
+@keyframes khuwahuwa4 {
+  0% {
       opacity:1;
       transform: translateY(150%);
   }
@@ -128,17 +202,6 @@ animation: huwahuwa1 2s linear, huwahuwa2 2s 2s linear, huwahuwa3 2s 4s linear, 
       transform: translateY(-150%);
       transform: translateX(-120%);
   }
-}
-`
-
-const Mkkzn = styled.div`
-max-width: 100%;
-width: 100%;
-animation: 3s ease-in 1s infinite both running slidein;
-
-@keyframes slidein {
-  from { transform: scaleX(1); }
-  to   { transform: scaleX(0); }
 }
 `
 const MNanan = styled.div`
@@ -169,6 +232,9 @@ function App() {
           <Kkzn>
             <img src={kkzn} alt="logo" />
           </Kkzn>
+          <Mkkzn>
+            <img src={mKkzn} alt="logo" />
+          </Mkkzn>
           <MagicSquare></MagicSquare>
         </div>
       </div>
