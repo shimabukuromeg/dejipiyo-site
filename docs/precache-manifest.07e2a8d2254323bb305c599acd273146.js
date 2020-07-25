@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98ac5ad3b4f113989cbc2aa7e36acf9c",
+    "revision": "1652592e10b01b5c2676480593f62994",
     "url": "/dejipiyo/index.html"
   },
   {
